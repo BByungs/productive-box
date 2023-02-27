@@ -12,5 +12,5 @@ jobs:
         uses: BByungs/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 5cc43d11e31982f26cc5f6c2bd9efc73
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
